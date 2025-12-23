@@ -9,7 +9,6 @@ import {
 
 const router = express.Router();
 
-// ⚠️ ROUTING PRECEDENCE (MUST BE FIRST)
 router.get("/search", searchBooks);
 
 router.get("/", getAllBooks);
