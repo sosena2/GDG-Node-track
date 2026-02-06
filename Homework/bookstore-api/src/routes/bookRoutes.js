@@ -1,9 +1,5 @@
 import express from "express";
-import {
-  getAllBooks,
-  getBookById,
-  createBook
-} from "../controllers/bookcontroller.js";
+import { getAllBooks, getBookById, createBook } from "../controllers/bookcontroller.js";
 import validateBook from "../middleware/validateBook.js";
 
 const router = express.Router();
