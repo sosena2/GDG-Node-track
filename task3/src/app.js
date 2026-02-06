@@ -12,7 +12,7 @@ app.use(morgan("dev"));
 // Routes
 app.use("/books", bookRoutes);
 
-// Error handling middleware (must be last)
+// Error handling middleware 
 app.use(errorHandler);
 
 export default app;
