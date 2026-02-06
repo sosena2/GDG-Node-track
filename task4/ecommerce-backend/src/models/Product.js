@@ -23,9 +23,9 @@ const productSchema = new mongoose.Schema({
         min: [0, 'stock can not be negative'],
         default : 0
     },
-    catagory: {
-        type: StringXor,
-        required: [true, 'Product catagor is reqquired'],
+    category: {
+        type: String,
+        required: [true, 'Product category is required'],
         trim: true
     },
     imageUrl: {
